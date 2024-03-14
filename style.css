@@ -1,4 +1,28 @@
-header {  
-    background-color: #6AF03B;
-    color:white;
+*{margin: 0 ;
+padding: 0 ;
 }
+
+.cabeçalho{  
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 24px 0 ;
+} 
+body{
+    background-color:aqua;
+}
+.cabeçalho-imagem{
+    width: 20%;
+    height: 20%;
+}
+.body{
+    width: 100%;
+}
+.cabeçalho-lista-item{display: inline-block;
+margin: 0 16px;
+font-size: 24px;
+
+}
+
